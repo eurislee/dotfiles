@@ -1,0 +1,16 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+sylrisc monitor -d 1 2 3 4 5 6 7 8 9 10
+
+sylrisc config border_width         2
+sylrisc config window_gap          12
+
+sylrisc config split_ratio          0.50
+sylrisc config borderless_monocle   true
+sylrisc config gapless_monocle      true
+
+sylrisc rule -a Gimp  state=floating follow=on
+sylrisc rule -a Zathura state=tiled
+
