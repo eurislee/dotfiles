@@ -11,8 +11,6 @@ endfunc
 call plug#begin('~/.vim/plugged')
 Plug 'eurislee/winmanager'
 Plug 'eurislee/woohoo'
-Plug 'eurislee/vim_completes'
-Plug 'eurislee/vim_dictionary'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-scripts/taglist.vim'
 Plug 'kien/ctrlp.vim'
@@ -20,7 +18,6 @@ Plug 'lervag/vimtex'
 Plug 'keitanakamura/tex-conceal.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
-Plug 'mileszs/ack.vim'
 call plug#end()
 
 " Sets how many lines of history VIM has to remember

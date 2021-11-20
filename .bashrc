@@ -9,7 +9,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 XDG_CONFIG_HOME="$HOME/.config"
-PATH="XDG_CONFIG_HOME:/usr/local/sbin:/usr/local/bin:/usr/bin/:~/.npm-global/bin:$PATH"
+PATH="XDG_CONFIG_HOME:/usr/local/sbin:/usr/local/bin:/usr/bin/:$PATH"
 
 source "$HOME/.vim/plugged/woohoo/woohoo_256palette.sh"
 
@@ -18,9 +18,6 @@ alias shutdownh='sudo shutdown -h now'
 alias shutdownr='sudo shutdown -r now'
 alias capacity='sudo cat /sys/class/power_supply/BAT0/capacity'
 alias usbflashdriveformatting='sudo mkfs.vfat -I'
-alias zipqr='zip -qr'
-alias prename='perl-rename -n'
-alias rename='perl-rename -fv'
 alias dhcpcdon='sudo systemctl start dhcpcd'
 alias rm='trash'
 alias bluetoothctlon='sudo bluetoothctl'
@@ -37,6 +34,3 @@ alias gitfetch='git fetch'
 alias gitmerge='git merge'
 alias gitclone='git clone'
 alias gitforce='git checkout --orphan temp && git add . && git commit -am "Initial commit" && git branch -D main && git branch -M main && git push -f origin main'
-
-# octave
-alias octave='octave --gui'

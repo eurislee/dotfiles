@@ -11,7 +11,7 @@ font = [
     # the following fonts in this list.
     "Source Code Pro",
     "Source Sans Pro",
-    "Source Serif Pro",
+    "Source Serif Pro"
 ]
 
 # Or just use a single font
@@ -58,7 +58,7 @@ title = "Terminal"
 # title-format = "{sVtTitle} [{i32Cols}x{i32Rows}]"                                   # zsh:~ [80x24]
 # title-format = "{sVtTitle}{?i32Cols != 80 || i32Rows != 24: [{i32Cols}x{i32Rows}]}" # zsh:~ [132x54]
 
-title-format = "{sVtTitle}" # <set by program>
+# title-format = "{sVtTitle}" # <set by program>
 
 scrollback = 1000
 
