@@ -36,11 +36,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-DEFAULT_SESSION=sylris
+DEFAULT_SESSION=strawberry
 
 case $1 in
-sylris)
-	exec sylris
+strawberry)
+	exec strawberry
 	;;
 *)
 	exec $DEFAULT_SESSION
